@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 from database.users_chats_db import db
 from bs4 import BeautifulSoup
 
-logger = logging.getLogger(__name__)
+logger = PROFESSOR-BOT
 logger.setLevel(logging.INFO)
 
 BTN_URL_REGEX = re.compile(r"(\[([^\[]+?)\]\((buttonurl|buttonalert):(?:/{0,2})(.+?)(:same)?\))")
